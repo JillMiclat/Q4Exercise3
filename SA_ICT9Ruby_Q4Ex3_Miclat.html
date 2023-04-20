@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arithmetic Operators</title>
+	        <meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet"> 
+
+			<style type="text/css">
+				body{
+					background-color: #f48190; 
+					font-family: 'Patrick Hand SC', cursive;
+					font-size: 30px;
+					color: #fff7f6;
+
+				}
+				div{
+					background-image: url(pinkmathbg.jpg);
+
+				}
+			</style>
+</head>
+<body>
+	<br>
+	<div class="container">
+		<h1>JavaScript Arithmetic</h1>
+		<p>m = 10, n = 5</p>
+		<ol type="1.">
+
+			<li>m + n =<strong id="p1"></strong></li>
+			<li>m - n =<strong id="p2"></strong></li>
+			<li>m * n =<strong id="p3"></strong></li>
+			<li>m / n =<strong id="p4"></strong></li>
+			<li>m % n =<strong id="p5"></strong></li>
+
+		</ol>
+
+    </div>
+		<script>
+			let m=10, n=5; 
+
+			let sum = m + n;
+			let diff = m - n;
+			let mul = m * n;
+			let div = m / n;
+			let per = m % n;
+ 
+			alert("The sum of the variable m and variable n is: " + sum + "\n" + "The differnce of variable m and n is : " + diff + "\n" + "The product of variable m and n is : " + mul + "\n" + "The quptient of variable m and n is : " + div + "\n" + "The modulus of variable m is : " + per + "\n");
+
+			//variable declaration;assignment of values
+			document.getElementById("p1").innerHTML = m + n;
+			document.getElementById("p2").innerHTML = m - n;
+			document.getElementById("p3").innerHTML = m * n;
+			document.getElementById("p4").innerHTML = m / n;
+			document.getElementById("p5").innerHTML = m % 2;
+	    </script>
+	    </script>
+</body>
+</html>
